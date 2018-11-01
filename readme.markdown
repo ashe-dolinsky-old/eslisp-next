@@ -1,4 +1,4 @@
-# eslisp [![](https://img.shields.io/npm/v/eslisp.svg?style=flat-square)][1] [![](https://img.shields.io/travis/anko/eslisp.svg?style=flat-square)][2] [![](https://img.shields.io/badge/chat-gitter_%E2%86%92-blue.svg?style=flat-square)][3]
+# eslisp-next v0.0.0
 
 This is a continuation of the eslisp project originally conceived by Anko. https://github.com/anko/eslisp
 Since they're unable to continue development on it, I thought it might be a good idea for me to pick it up instead.
@@ -9,6 +9,10 @@ After that I will look into ditching escodegen in favor of babel, but this will 
 Maybe add reader macros at some point, but that's sci-fi at the moment, as it's even harder than the previous goal.
 
 My personal motivation: I already did something like that in Common Lisp, it was a C++ transpiler. As I'm working with Js both professionally and my own projects it seems a better idea to use the existing Js infrastructure instead of adopting a foreign one. That in my opinion is why things like ClojureScript and Reason will never go anywhere. They are too tightly coupled to archaic infrastructures, the JVM and the OCaml respectively.
+
+================================================================================
+
+# eslisp [![](https://img.shields.io/npm/v/eslisp.svg?style=flat-square)][1] [![](https://img.shields.io/travis/anko/eslisp.svg?style=flat-square)][2] [![](https://img.shields.io/badge/chat-gitter_%E2%86%92-blue.svg?style=flat-square)][3]
 
 An [S-expression][4] syntax for [ECMAScript][5]/JavaScript, with [Lisp-like
 hygienic macros][6].  Minimal core, maximally customisable.
