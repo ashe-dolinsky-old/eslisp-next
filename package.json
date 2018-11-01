@@ -1,0 +1,46 @@
+{
+  "name": "eslisp-next",
+  "version": "0.0.0",
+  "description": "minimal S-expression syntax and macro system for JavaScript, the continuation",
+  "main": "./lib",
+  "scripts": {},
+  "directories": {
+    "lib": "./lib",
+    "bin": "./bin"
+  },
+  "bin": {
+    "eslc": "./bin/eslc"
+  },
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "keywords": [
+    "language",
+    "compiler",
+    "lisp",
+    "macros",
+    "s-expression",
+    "javascript"
+  ],
+  "author": "Asheera Dolinsky <ashe.dolinsky@gmail.com>",
+  "repository": "asheera-dolinsky/eslisp-next",
+  "bugs": "https://github.com/asheera-dolinsky/eslisp-next/issues",
+  "license": "ISC",
+  "devDependencies": {
+    "concat-stream": "^1.6.0",
+    "source-map": "^0.5.3",
+    "tape": "^4.0.0"
+  },
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "concat-stream": "^1.4.7",
+    "convert-source-map": "^1.1.2",
+    "escodegen": "^1.4.1",
+    "esutils": "^2.0.2",
+    "esvalid": "1.1.0",
+    "nopt": "^4.0.1",
+    "prelude-ls": "^1.1.1",
+    "sexpr-plus": "^7.0.0"
+  }
+}
